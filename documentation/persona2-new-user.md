@@ -34,7 +34,7 @@
 
 - 
 #She has a smartphone with a camera
-#She has the Shoot-last-minute-meal-app installed in her phone
+#She has the Shoot-last-minute-meal-website in her phone
 #She has one account and access to her profile
 #She has some food items  in her fridge (tomatoes, onions, chicken)
 #She as a stove, cooking equipment (pan, knife, cutting board)
@@ -51,66 +51,107 @@
 
 - Maria just got home from work.
 - Maria didnt eat since noon
-- She is tired to think or do shopping
-- She needs to eat, she has 3 ingredients and 20 min to eat before homework
+- She is so tired she doesnt want to think or do shopping
+- She needs to eat, she has 3 ingredients in the fridge,  30 min to cook and eat before her homework
 
 
-* Step 1
-- Takes her phone, opens the app. 
+Maria
+  - Takes her phone, 
+  - opens the website,
+  - she is already logged in 
 
-* Step 2
-- She gets a welcome message: Ready to have fun and make a quick meal? What is in the fridge?
-- 
-* Step 3
-- She opens the fridge, takes the picture.
-- 
-* Step 4
-- She add the picture to the app.
-- 
-* Step 5
--ChatGPT recognize the 3 main ingredients:
-* --Chicken
-* --Onions
-* --Tomatoes
+Website shows a welcome message
+  - Ready to have fun and make a quick meal? What is in the fridge?
 
-* Step 6
-- She has the option to manually add items like: salt or pepper
+Maria
+  - Opens the fridge
+  - Uses her phone to take the picture.
+  - Added her picture to the website
 
-- Step 7
-- She click skip
+Website
+- ChatGPT recognize the 3 main ingredients: 
+    - Chicken 
+    - Onions
+    - Tomatoes
 
-* Step 8
--App ask what sugest the kitchen items like:
-* pan
-* knife
-* cut board
+Website
+  -offers the option to add manually items: [list of items or line for text?]
+  - Salt
+  - Pepper
+  - Olive oil
 
-*Step 9
--She add what she has
+Maria
 
-* Step 10 
--App sugest 3 options:
-* option 1. Fried chicken
-* Option 2. Chicken soup
-* Option 3. Chicken Salad.
+  -Selects the [3] options
 
-*Step 11
--She select the Fried chicke. 
+    - Salt
+    - Pepper
+    - Olive oil
 
-* Step 12
--The app shows the instructions 
+Website
 
-* Step 13 
--She follow the instructions
-* Step 14 
--The app ask: 
-* Is your meal ready? How your fried chicken came out?
-* She select the option:
-* Great
-* The app gives the option to save, rate, share the recipe
-* Step 15
--She takes a picture, share and save, she comments how much she loves her chicken, she enjoy her dinner.
-* 
+  - Suggest to select the utensils she has on hand to cook:
+      - Stove 
+      - pan
+      - knife 
+      - cut board
+      - thermometer
+      - 
+
+Maria 
+  -She marks the utensils she has
+
+Website
+  - Suggest 3 options:
+
+    * option 1. Fried chicken
+    * Option 2. Chicken soup
+    * Option 3. Chicken Salad
+
+Maria
+  
+  - She selects the Fried Chicken
+
+Website
+  
+  -The app shows the instructions 
+    
+    - Get the chicken from the fridge, 
+    - Put the pan on the stove
+    - Turn on the stove 
+    - Add the oil to the pan
+    - Wait to preheat for 2 min 
+    - Add your chicken
+    - Seasson with salt and pepper
+    - Wait until you reach the internal temperature of 165F
+    - Transfer to a plate and let it rest for 2 min
+    
+Maria 
+  - She follows the instructions
+
+Website 
+  - ask:
+    - Is your meal ready? How your fried chicken came out?
+
+      - Great 
+      - Terrible
+      
+Maria
+
+    - Selects Great
+
+Website
+
+    - The website gives the option to save, rate, share the recipe
+
+Maria
+    
+  - She takes a picture
+  - Shares
+  - Saves
+  - Comments 
+  - she enjoy her dinner.
+
 
 
 

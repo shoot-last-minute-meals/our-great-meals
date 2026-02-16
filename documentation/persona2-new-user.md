@@ -64,81 +64,32 @@ Website shows a welcome message
   - Ready to have fun and make a quick meal? What is in the fridge?
 
 Maria
-  - Opens the fridge
-  - Uses her phone to take the picture.
-  - Added her picture to the website
+  
+  - Upload her picture to the website
 
 Website
-- ChatGPT recognize the 3 main ingredients: 
-    - Chicken 
-    - Onions
-    - Tomatoes
-
-Website
-  -offers the option to add manually items: [list of items or line for text?]
-  - Salt
-  - Pepper
-  - Olive oil
-
-Maria
-
-  -Selects the [3] options
-
-    - Salt
-    - Pepper
-    - Olive oil
-
-Website
-
-  - Suggest to select the utensils she has on hand to cook:
-      - Stove 
-      - pan
-      - knife 
-      - cut board
-      - thermometer
-      - 
+- ChatGPT recognize the ingredients: 
+- Display the list of items 
+- Show the (profile database) with basic items to select from there
 
 Maria 
-  -She marks the utensils she has
+    - Select the items and click submit
 
 Website
-  - Suggest 3 options:
-
-    * option 1. Fried chicken
-    * Option 2. Chicken soup
-    * Option 3. Chicken Salad
+  -offers the option to select different categories
+    - What kind of food like (mexican, italian, chinese)
+    - What type of food like: fruit, vetegables, grains, spices,
+    - Or maybe Breaksfast, lunch, dinner, snack
+    - also basic items to cook like pan or cutting board.
 
 Maria
-  
-  - She selects the Fried Chicken
+
+  -Selects the options
 
 Website
-  
-  -The app shows the instructions 
-    
-    - Get the chicken from the fridge, 
-    - Put the pan on the stove
-    - Turn on the stove 
-    - Add the oil to the pan
-    - Wait to preheat for 2 min 
-    - Add your chicken
-    - Seasson with salt and pepper
-    - Wait until you reach the internal temperature of 165F
-    - Transfer to a plate and let it rest for 2 min
-    
-Maria 
-  - She follows the instructions
 
-Website 
-  - ask:
-    - Is your meal ready? How your fried chicken came out?
-
-      - Great 
-      - Terrible
-      
-Maria
-
-    - Selects Great
+    - shows the intructions to make the dish and also the options of what
+to do with the recipe like save print, share.
 
 Website
 

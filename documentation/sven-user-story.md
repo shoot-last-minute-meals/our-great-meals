@@ -13,4 +13,4 @@
 - By clicking on the chosen recipe, he can then see the preparation and cooking instructions 
 - he can share and save the recipe
 - Videos of the cooking techniques will be displayed 
-- Sven makes the meal, takes a photo, and shares the photo with his friends on the website
+- Sven makes the meal, takes a photo, and shares the photo with his friends on the websitegit 

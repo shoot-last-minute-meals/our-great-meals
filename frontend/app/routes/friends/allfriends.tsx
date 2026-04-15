@@ -238,8 +238,16 @@ export default function AllFriends() {
                                     className={`flex items-center gap-4 px-5 py-4 ${i > 0 ? "border-t border-gray-100" : ""}`}
                                 >
                                     {/* Avatar */}
-                                    <div className={`w-10 h-10 rounded-full flex items-center justify-center font-semibold text-sm shrink-0 ${avatarColor(friend.id)}`}>
-                                        {initials(friend.username)}
+                                    <div className="relative w-10 h-10 shrink-0">
+                                        <div className={`w-10 h-10 rounded-full flex items-center justify-center font-semibold text-sm ${avatarColor(friend.id)}`}>
+                                            {initials(friend.username)}
+                                        </div>
+                                        <img
+                                            src={`/api/avatar/${friend.id}`}
+                                            alt={friend.username}
+                                            className="absolute inset-0 w-10 h-10 rounded-full object-cover"
+                                            onError={(imgEvent) => { imgEvent.currentTarget.style.display = 'none' }}
+                                        />
                                     </div>
 
                                     {/* Name */}
@@ -292,8 +300,16 @@ export default function AllFriends() {
                                     className={`flex items-center gap-4 px-5 py-4 ${i > 0 ? "border-t border-gray-100" : ""}`}
                                 >
                                     {/* Avatar */}
-                                    <div className={`w-10 h-10 rounded-full flex items-center justify-center font-semibold text-sm shrink-0 ${avatarColor(req.id)}`}>
-                                        {initials(req.username)}
+                                    <div className="relative w-10 h-10 shrink-0">
+                                        <div className={`w-10 h-10 rounded-full flex items-center justify-center font-semibold text-sm ${avatarColor(req.id)}`}>
+                                            {initials(req.username)}
+                                        </div>
+                                        <img
+                                            src={`/api/avatar/${req.id}`}
+                                            alt={req.username}
+                                            className="absolute inset-0 w-10 h-10 rounded-full object-cover"
+                                            onError={(imgEvent) => { imgEvent.currentTarget.style.display = 'none' }}
+                                        />
                                     </div>
 
                                     {/* Name */}

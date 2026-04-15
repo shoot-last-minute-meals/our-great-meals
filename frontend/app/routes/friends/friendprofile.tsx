@@ -367,8 +367,16 @@ export default function FriendProfile() {
                                     to={`/friendprofile/${mutualFriend.id}`}
                                     className="flex flex-col items-center gap-2 p-4 border border-gray-200 rounded-xl bg-white hover:bg-gray-50 transition-colors"
                                 >
-                                    <div className={`w-12 h-12 rounded-full flex items-center justify-center font-bold text-sm ${avatarColor(mutualFriend.id)}`}>
-                                        {initials(mutualFriend.username)}
+                                    <div className="relative w-12 h-12">
+                                        <div className={`w-12 h-12 rounded-full flex items-center justify-center font-bold text-sm ${avatarColor(mutualFriend.id)}`}>
+                                            {initials(mutualFriend.username)}
+                                        </div>
+                                        <img
+                                            src={`/api/avatar/${mutualFriend.id}`}
+                                            alt={mutualFriend.username}
+                                            className="absolute inset-0 w-12 h-12 rounded-full object-cover"
+                                            onError={(imgEvent) => { imgEvent.currentTarget.style.display = 'none' }}
+                                        />
                                     </div>
                                     <p className="text-sm font-medium text-gray-900 text-center">{mutualFriend.username}</p>
                                 </Link>

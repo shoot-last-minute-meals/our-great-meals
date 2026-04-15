@@ -137,10 +137,10 @@ export default function Login() {
             <div className="hidden lg:flex lg:w-2/5 flex-col justify-between p-10 bg-[#2a2a27]">
 
                 {/* Logo */}
-                <div className="flex items-center gap-3">
-                    <Logo size={38} />
-                    <span className="text-white font-semibold text-base tracking-tight">lastminutemeals</span>
-                </div>
+                {/*<div className="flex items-center gap-3">*/}
+                {/*    <Logo size={38} />*/}
+                {/*    <span className="text-white font-semibold text-base tracking-tight">lastminutemeals</span>*/}
+                {/*</div>*/}
 
                 {/* Marketing copy */}
                 <div className="space-y-6">
@@ -161,7 +161,7 @@ export default function Login() {
                 </div>
 
                 {/* Footer */}
-                <p className="text-gray-500 text-xs">© 2026 Last Minute Meals</p>
+                {/*<p className="text-gray-500 text-xs">© 2026 Last Minute Meals</p>*/}
             </div>
 
             {/* ── Right panel ── */}

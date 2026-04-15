@@ -59,7 +59,7 @@ export async function action({ request }: Route.ActionArgs) {
     }
 
     let fileSaved = false;
-    const formData = await parseFormData(request, async (fileUpload: FileUpload) => {
+    const formData = await parseFormData(request, { maxFileSize: 5 * 1024 * 1024 }, async (fileUpload: FileUpload) => {
         if (fileUpload.fieldName === "avatar" && fileUpload.type.startsWith("image/")) {
             await fileStorage.set(storageKey, fileUpload);
             fileSaved = true;

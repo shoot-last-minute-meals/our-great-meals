@@ -17,7 +17,7 @@ export async function loader({ params }: Route.LoaderArgs) {
     return new Response(file.stream(), {
         headers: {
             "Content-Type": file.type,
-            "Content-Disposition": `attachment; filename=${file.name}`,
+            "Cache-Control": "no-cache",
         },
     });
 }

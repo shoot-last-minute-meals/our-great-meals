@@ -11,7 +11,7 @@ import {
     deleteFriend,
     type Friend
 } from "./friend.model.ts";
-import {selectPublicUserByEmail} from "../user/user.model.ts";
+import {type PublicUser, selectPublicUserByEmail} from "../user/user.model.ts";
 import {z} from "zod/v4";
 
 
@@ -25,8 +25,8 @@ export async function getFriendsController(request: Request, response: Response)
             return
         }
 
-        const friends: Friend[] = await selectAcceptedFriendsByUserId(user.id)
-        const pendingRequests: Friend[] = await selectPendingRequestsByUserId(user.id)
+        const friends: PublicUser[] = await selectAcceptedFriendsByUserId(user.id)
+        const pendingRequests: PublicUser[] = await selectPendingRequestsByUserId(user.id)
 
         const status: Status = {
             status: 200,

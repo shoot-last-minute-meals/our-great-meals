@@ -125,7 +125,6 @@ export default function Login() {
 
     const features = [
         'AI-powered ingredient recognition',
-        'Hundreds of matched recipes',
         'Share meals with friends',
         'Track your cooking history',
     ]
